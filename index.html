@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+    <title>Listagem Pokemon I - Semana do Zero ao Programador Contratado</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/imagens/1/pokeball.png" alt="pokebola" class="logo">
+        </a>
+        <button id="botao-alterar-tema">
+            <img src="./src/imagens/1/sun.png" alt="imagem do sol" class="imagem-botao">
+        </button>
+    </header>
+    <main>
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bulbasaur</span>
+                    <span>#001</span>
+                </div>
+
+                <img src="./src/imagens/1/bulbasaur.gif" alt="Bulbasaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Há uma semente de planta em suas costas desde o dia que este Pókemon nasce. A semente cresce lentamente.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ivysaur</span>
+                    <span>#002</span>
+                </div>
+
+                <img src="./src/imagens/1/ivysaur.gif" alt="Ivysaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar de pé em suas patas traseiras.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div>
+
+                <img src="./src/imagens/1/venusaur.gif" alt="Venusaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz solar.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div>
+
+                <img src="./src/imagens/1/charmander.gif" alt="Bulbasaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">
+                    Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta de sua cauda.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmeleon</span>
+                    <span>#005</span>
+                </div>
+
+                <img src="./src/imagens/1/charmeleon.gif" alt="Charmeleon" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">
+                    Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com garras afiadas.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div>
+
+                <img src="./src/imagens/1/charizard.gif" alt="Charizard" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+
+                <img src="./src/imagens/1/squirtle.gif" alt="Squirtle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força vigorosa.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+
+                <img src="./src/imagens/1/wartortle.gif" alt="Wartortle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse Wartortle é muito antigo.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+
+                <img src="./src/imagens/1/blastoise.gif" alt="Blastoise" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Caterpie</span>
+                    <span>#010</span>
+                </div>
+
+                <img src="./src/imagens/1/caterpie.gif" alt="Caterpie" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+
+                <p class="descricao">
+                    Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os inimigos.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Metapod</span>
+                    <span>#011</span>
+                </div>
+
+                <img src="./src/imagens/1/metapod.gif" alt="Metapod" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+
+                <p class="descricao">
+                    Está esperando o momento de evoluir. Nesta fase, ele só pode endurecer, por isso permanece imóvel para evitar ataques.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Butterfree</span>
+                    <span>#012</span>
+                </div>
+
+                <img src="./src/imagens/1/butterfree.gif" alt="Butterfree" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele adora o néctar das flores e pode localizar manchas de flores que contenham até mesmo pequenas quantidades de pólen.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Weedle</span>
+                    <span>#013</span>
+                </div>
+
+                <img src="./src/imagens/1/weedle.gif" alt="Weedle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Cuidado com o ferrão afiado em sua cabeça. Esconde-se na grama e nos arbustos onde come folhas.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Kakuna</span>
+                    <span>#014</span>
+                </div>
+
+                <img src="./src/imagens/1/kakuna.gif" alt="Kakuna" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Capaz de se mover apenas ligeiramente. Quando ameaçado, pode esticar o ferrão e envenenar o inimigo.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Beedrill</span>
+                    <span>#015</span>
+                </div>
+
+                <img src="./src/imagens/1/beedrill.gif" alt="Beedrill" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Possui três ferrões venenosos nas patas dianteiras e na cauda. Eles são usados ​​para atacar repetidamente o inimigo.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pidgey</span>
+                    <span>#016</span>
+                </div>
+
+                <img src="./src/imagens/1/pidgey.gif" alt="Pidgey" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">
+                    Muito dócil. Se for atacado, muitas vezes levanta areia para se proteger, em vez de revidar.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pidgeotto</span>
+                    <span>#017</span>
+                </div>
+
+                <img src="./src/imagens/1/pidgeotto.gif" alt="Pidgeotto" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">
+                    Este Pokémon está cheio de vitalidade. Ele voa constantemente pelo seu grande território em busca de presas.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pidgeot</span>
+                    <span>#018</span>
+                </div>
+
+                <img src="./src/imagens/1/pidgeot.gif" alt="Pidgeot" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">
+                    Este Pokémon voa na velocidade Mach 2 em busca de presas. Suas grandes garras são temidas como armas malignas.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Rattata</span>
+                    <span>#019</span>
+                </div>
+
+                <img src="./src/imagens/1/rattata.gif" alt="Rattata" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele mastigará qualquer coisa com suas presas. Se você vir um, pode ter certeza de que mais 40 vivem na área.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Raticate</span>
+                    <span>#020</span>
+                </div>
+
+                <img src="./src/imagens/1/raticate.gif" alt="Raticate" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                </ul>
+
+                <p class="descricao">
+                    Suas patas traseiras são palmadas. Elas agem como nadadeiras, para que possam nadar em rios e caçar presas.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Spearow</span>
+                    <span>#021</span>
+                </div>
+
+                <img src="./src/imagens/1/spearow.gif" alt="Spearow" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele é inepto em voar alto. No entanto, pode voar muito rápido para proteger o seu território.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Fearow</span>
+                    <span>#022</span>
+                </div>
+
+                <img src="./src/imagens/1/fearow.gif" alt="Fearow" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">
+                    Um Pokémon que remonta a muitos anos. Se sentir perigo, ele voa alto e para longe, instantaneamente.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ekans</span>
+                    <span>#023</span>
+                </div>
+
+                <img src="./src/imagens/1/ekans.gif" alt="Ekans" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele pode soltar livremente sua mandíbula para engolir presas grandes inteiras. No entanto, pode ficar muito pesado para ser movido.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Arbok</span>
+                    <span>#024</span>
+                </div>
+
+                <img src="./src/imagens/1/arbok.gif" alt="Arbok" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    O padrão em sua barriga parece ser um rosto assustador. Inimigos fracos fugirão apenas ao ver o padrão.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pikachu</span>
+                    <span>#025</span>
+                </div>
+
+                <img src="./src/imagens/1/pikachu.gif" alt="Pikachu" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo eletrico">Elétrico</li>
+                </ul>
+
+                <p class="descricao">
+                    Quando está irritado, descarrega imediatamente a energia armazenada nas bolsas em suas bochechas.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Raichu</span>
+                    <span>#026</span>
+                </div>
+
+                <img src="./src/imagens/1/raichu.gif" alt="Raichu" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo eletrico">Elétrico</li>
+                </ul>
+
+                <p class="descricao">
+                    Sua cauda descarrega eletricidade no solo, protegendo-o de choques.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Sandshrew</span>
+                    <span>#027</span>
+                </div>
+
+                <img src="./src/imagens/1/sandshrew.gif" alt="Sandshrew" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo terra">Terra</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele cava tocas profundas para viver. Quando em perigo, enrola o corpo para resistir aos ataques.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Sandslash</span>
+                    <span>#028</span>
+                </div>
+
+                <img src="./src/imagens/1/sandslash.gif" alt="Raichu" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo terra">Terra</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele é adepto de atacar com os espinhos nas costas e suas garras afiadas enquanto corre rapidamente.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Nidoran ♀</span>
+                    <span>#029</span>
+                </div>
+
+                <img src="./src/imagens/1/nidoranf.gif" alt="Nidoran Fêmea" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Elas são mais sensíveis aos cheiros do que os machos. Enquanto procuram alimentos, elas usam seus bigodes para verificar a direção do vento e ficar na direção do vento em relação aos predadores.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Nidorina</span>
+                    <span>#030</span>
+                </div>
+
+                <img src="./src/imagens/1/nidorina.gif" alt="Nidorina" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    O chifre em sua cabeça atrofiou. Acredita-se que isso aconteça para que os filhos de Nidorina não sejam cutucados enquanto a mãe os alimenta.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Nidoqueen</span>
+                    <span>#031</span>
+                </div>
+
+                <img src="./src/imagens/1/nidoqueen.gif" alt="Nidoqueen" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                    <li class="tipo terra">Terra</li>
+                </ul>
+
+                <p class="descricao">
+                    Nidoqueen é melhor na defesa do que no ataque. Com escamas como armaduras, este Pokémon protegerá seus filhos de qualquer tipo de ataque.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Nidoran ♂</span>
+                    <span>#032</span>
+                </div>
+
+                <img src="./src/imagens/1/nidoranm.gif" alt="Nidoran Macho" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    O chifre na testa de um Nidoran macho contém um veneno poderoso. Este é um Pokémon muito cauteloso, sempre esticando as orelhas grandes.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Nidorino</span>
+                    <span>#033</span>
+                </div>
+
+                <img src="./src/imagens/1/nidorino.gif" alt="Nidorino" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Com um chifre mais duro que o diamante, este Pokémon despedaça pedras enquanto procura uma pedra da lua.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Nidoking</span>
+                    <span>#034</span>
+                </div>
+
+                <img src="./src/imagens/1/nidoking.gif" alt="Nidoking" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                    <li class="tipo terra">Terra</li>
+                </ul>
+
+                <p class="descricao">
+                    Quando fica furioso, é impossível controlar. Mas na presença de uma Nidoqueen com quem convive há muito tempo, Nidoking se acalma.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Clefairy</span>
+                    <span>#035</span>
+                </div>
+
+                <img src="./src/imagens/1/clefairy.gif" alt="Clefairy" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fada">Fada</li>
+                </ul>
+
+                <p class="descricao">
+                    Nas noites de lua cheia, Clefairy se reúne em todos os lugares e dança. Tomar banho ao luar os faz flutuar.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Clefable</span>
+                    <span>#036</span>
+                </div>
+
+                <img src="./src/imagens/1/clefable.gif" alt="Clefable" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fada">Fada</li>
+                </ul>
+
+                <p class="descricao">
+                    Dizem que vivem em montanhas remotas e tranquilas. Esse tipo de fada tem uma forte aversão a ser vista.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Vulpix</span>
+                    <span>#037</span>
+                </div>
+
+                <img src="./src/imagens/1/vulpix.gif" alt="Vulpix" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">
+                    Se for atacado por um inimigo mais forte que ele, ele finge estar ferido para enganar o inimigo e foge.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ninetales</span>
+                    <span>#038</span>
+                </div>
+
+                <img src="./src/imagens/1/ninetales.gif" alt="Ninetales" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">
+                    Algumas lendas afirmam que cada uma de suas nove caudas tem seu próprio tipo de poder místico especial.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Jigglypuff</span>
+                    <span>#039</span>
+                </div>
+
+                <img src="./src/imagens/1/jigglypuff.gif" alt="Jigglypuff" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo fada">Fada</li>
+                </ul>
+
+                <p class="descricao">
+                    Quando seus enormes olhos tremem, ele canta uma melodia misteriosamente reconfortante que acalma seus inimigos.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wigglytuff</span>
+                    <span>#040</span>
+                </div>
+
+                <img src="./src/imagens/1/wigglytuff.gif" alt="Wigglytuff" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo fada">Fada</li>
+                </ul>
+
+                <p class="descricao">
+                    Tem uma pelagem muito fina. Tome cuidado para não deixá-lo com raiva, ou ele pode inflar continuamente e bater com força.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Zubat</span>
+                    <span>#041</span>
+                </div>
+
+                <img src="./src/imagens/1/zubat.gif" alt="Zubat" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele emite ondas ultrassônicas de sua boca para verificar o que está ao seu redor. Mesmo em cavernas estreitas, Zubat voa com habilidade.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Golbat</span>
+                    <span>#042</span>
+                </div>
+
+                <img src="./src/imagens/1/golbat.gif" alt="Golbat" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele adora beber o sangue de outras criaturas. Diz-se que se encontrar outros da sua espécie a passar fome, por vezes partilha o sangue que recolheu.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Oddish</span>
+                    <span>#043</span>
+                </div>
+
+                <img src="./src/imagens/1/oddish.gif" alt="Oddish" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Seu nome científico é Oddium vagueus. Diz-se que ele percorre distâncias de até 300 metros quando a noite cai, caminhando sobre suas duas raízes.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Gloom</span>
+                    <span>#044</span>
+                </div>
+
+                <img src="./src/imagens/1/gloom.gif" alt="Gloom" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    O fluido que escorre da boca não é baba. É um néctar usado para atrair presas.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Vileplume</span>
+                    <span>#045</span>
+                </div>
+
+                <img src="./src/imagens/1/vileplume.gif" alt="Vileplume" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    O botão floresce com um estrondo. Em seguida, ele começa a espalhar pólen alergênico e venenoso.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Paras</span>
+                    <span>#046</span>
+                </div>
+
+                <img src="./src/imagens/1/paras.gif" alt="Paras" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo grama">Grama</li>
+                </ul>
+
+                <p class="descricao">
+                    Faz tocas subterrâneas para roer raízes de árvores. Os cogumelos nas costas absorvem a maior parte da nutrição.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Parasect</span>
+                    <span>#047</span>
+                </div>
+
+                <img src="./src/imagens/1/parasect.gif" alt="Parasect" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo grama">Grama</li>
+                </ul>
+
+                <p class="descricao">
+                    O hospedeiro do inseto fica sem energia pelo cogumelo em suas costas. O cogumelo parece fazer todo o pensamento.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venonat</span>
+                    <span>#048</span>
+                </div>
+
+                <img src="./src/imagens/1/venonat.gif" alt="Venonat" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    O veneno escorre por todo o seu corpo. Ele captura pequenos insetos Pokémon à noite que são atraídos pela luz.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venomoth</span>
+                    <span>#049</span>
+                </div>
+
+                <img src="./src/imagens/1/venomoth.gif" alt="Venomoth" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    As asas são cobertas por escamas semelhantes a poeira. Cada vez que bate as asas, libera poeira altamente tóxica.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Diglett</span>
+                    <span>#050</span>
+                </div>
+
+                <img src="./src/imagens/1/diglett.gif" alt="Diglett" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo terra">Terra</li>
+                </ul>
+
+                <p class="descricao">
+                    Vive cerca de um metro abaixo do solo, onde se alimenta de raízes de plantas. Às vezes aparece acima do solo.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Dugtrio</span>
+                    <span>#051</span>
+                </div>
+
+                <img src="./src/imagens/1/dugtrio.gif" alt="Dugtrio" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo terra">Terra</li>
+                </ul>
+
+                <p class="descricao">
+                    Suas três cabeças balançam separadamente para cima e para baixo para soltar o solo próximo, facilitando a escavação.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Meowth</span>
+                    <span>#052</span>
+                </div>
+
+                <img src="./src/imagens/1/meowth.gif" alt="Meowth" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                </ul>
+
+                <p class="descricao">
+                    Tudo o que faz é dormir durante o dia. À noite, patrulha seu território com os olhos brilhantes.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Persian</span>
+                    <span>#053</span>
+                </div>
+
+                <img src="./src/imagens/1/persian.gif" alt="Persian" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                </ul>
+
+                <p class="descricao">
+                    Embora seu pelo tenha muitos admiradores, é difícil criá-lo como animal de estimação por causa de sua maldade inconstante.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Psyduck</span>
+                    <span>#054</span>
+                </div>
+
+                <img src="./src/imagens/1/psyduck.gif" alt="Psyduck" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    É constantemente assolado por uma dor de cabeça. Quando a dor de cabeça fica intensa, ela começa a usar poderes misteriosos.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Golduck</span>
+                    <span>#055</span>
+                </div>
+
+                <img src="./src/imagens/1/golduck.gif" alt="Golduck" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    Quando ele nada a toda velocidade usando seus membros longos e palmados, sua testa, de alguma forma, começa a brilhar.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Mankey</span>
+                    <span>#056</span>
+                </div>
+
+                <img src="./src/imagens/1/mankey.gif" alt="Mankey" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo lutador">Lutador</li>
+                </ul>
+
+                <p class="descricao">
+                    Vive em grupos nas copas das árvores. Se perder de vista o seu grupo, ficará furioso com a sua solidão.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Primeape</span>
+                    <span>#057</span>
+                </div>
+
+                <img src="./src/imagens/1/primeape.gif" alt="Primeape" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo lutador">Lutador</li>
+                </ul>
+
+                <p class="descricao">
+                    Fica extremamente furioso se sentir alguém olhando para ele. Ele persegue qualquer um que encontre seu brilho.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Growlithe</span>
+                    <span>#058</span>
+                </div>
+
+                <img src="./src/imagens/1/growlithe.gif" alt="Growlithe" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">
+                    Tem uma natureza corajosa e confiável. Ele enfrenta destemidamente inimigos maiores e mais fortes.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Arcanine</span>
+                    <span>#059</span>
+                </div>
+
+                <img src="./src/imagens/1/arcanine.gif" alt="Arcanine" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">
+                    Um antigo pergaminho ilustrado mostra que as pessoas ficavam cativadas por seu movimento enquanto ele percorria as pradarias.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Poliwag</span>
+                    <span>#060</span>
+                </div>
+
+                <img src="./src/imagens/1/poliwag.gif" alt="Poliwag" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    O redemoinho em sua barriga mostra seu interior aparecendo através da pele. Aparece mais claramente depois que Poliwag come.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Poliwhirl</span>
+                    <span>#061</span>
+                </div>
+
+                <img src="./src/imagens/1/poliwhirl.gif" alt="Poliwhirl" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    Suas duas pernas são bem desenvolvidas. Embora possa viver no solo, prefere viver na água.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Poliwrath</span>
+                    <span>#062</span>
+                </div>
+
+                <img src="./src/imagens/1/poliwrath.gif" alt="Poliwrath" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                    <li class="tipo lutador">Lutador</li>
+                </ul>
+
+                <p class="descricao">
+                    Embora seja hábil em um estilo de natação dinâmico que utiliza todos os seus músculos, por algum motivo ele vive em terra firme.
+                </p>
+            </li>
+            
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Abra</span>
+                    <span>#063</span>
+                </div>
+
+                <img src="./src/imagens/1/abra.gif" alt="Abra" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo psiquico">Psíquico</li>
+                </ul>
+
+                <p class="descricao">
+                    Este Pokémon usa seus poderes psíquicos enquanto dorme. O conteúdo dos sonhos de Abra afeta os poderes que o Pokémon exerce.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Kadabra</span>
+                    <span>#064</span>
+                </div>
+
+                <img src="./src/imagens/1/kadabra.gif" alt="Kadabra" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo psiquico">Psíquico</li>
+                </ul>
+
+                <p class="descricao">
+                    Usando seu poder psíquico, Kadabra levita enquanto dorme. Ele usa sua cauda elástica como travesseiro.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Alakazam</span>
+                    <span>#065</span>
+                </div>
+
+                <img src="./src/imagens/1/alakazam.gif" alt="Alakazam" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo psiquico">Psíquico</li>
+                </ul>
+
+                <p class="descricao">
+                    Tem um nível de inteligência incrivelmente alto. Alguns dizem que Alakazam se lembra de tudo o que acontece com ele, desde o nascimento até a morte.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Machop</span>
+                    <span>#066</span>
+                </div>
+
+                <img src="./src/imagens/1/machop.gif" alt="Machop" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo lutador">Lutador</li>
+                </ul>
+
+                <p class="descricao">
+                    Todo o seu corpo é composto por músculos. Mesmo sendo do tamanho de uma criança humana, pode arremessar 100 adultos.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Machoke</span>
+                    <span>#067</span>
+                </div>
+
+                <img src="./src/imagens/1/machoke.gif" alt="Machoke" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo lutador">Lutador</li>
+                </ul>
+
+                <p class="descricao">
+                    Seu corpo musculoso é tão poderoso que ele deve usar um cinto economizador de energia para poder regular seus movimentos.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Machamp</span>
+                    <span>#068</span>
+                </div>
+
+                <img src="./src/imagens/1/machamp.gif" alt="Machamp" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo lutador">Lutador</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele soca com seus quatro braços em uma velocidade estonteante. Pode lançar 1.000 socos em dois segundos.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bellsprout</span>
+                    <span>#069</span>
+                </div>
+
+                <img src="./src/imagens/1/bellsprout.gif" alt="Bellsprout" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Não importa o que Bellsprout esteja fazendo, se detectar movimento próximo, ele reagirá imediatamente estendendo a mão com suas vinhas finas.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Weepinbell</span>
+                    <span>#070</span>
+                </div>
+
+                <img src="./src/imagens/1/weepinbell.gif" alt="Weepinbell" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Embora esteja cheio de ácido, não derrete, porque também exala um fluido protetor.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Victreebel</span>
+                    <span>#071</span>
+                </div>
+
+                <img src="./src/imagens/1/victreebel.gif" alt="Victreebel" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele atrai a presa para a boca com um aroma de néctar. A presa indefesa é derretida com um líquido dissolvente.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Tentacool</span>
+                    <span>#072</span>
+                </div>
+
+                <img src="./src/imagens/1/tentacool.gif" alt="Tentacool" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Quando a maré baixa, Tentacool desidratado pode ser encontrado deixado para trás na costa.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Tentacruel</span>
+                    <span>#073</span>
+                </div>
+
+                <img src="./src/imagens/1/tentacruel.gif" alt="Tentacruel" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Nas raras ocasiões em que ocorrem grandes surtos de Tentacruel, todos os Pokémon peixes desaparecem do mar circundante.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Geodude</span>
+                    <span>#074</span>
+                </div>
+
+                <img src="./src/imagens/1/geodude.gif" alt="Geodude" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo pedra">Pedra</li>
+                    <li class="tipo terra">Terra</li>
+                </ul>
+
+                <p class="descricao">
+                    Em repouso, parece uma pedra. Pisá-lo descuidadamente fará com que ele balance os punhos com raiva.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Graveler</span>
+                    <span>#075</span>
+                </div>
+
+                <img src="./src/imagens/1/graveler.gif" alt="Graveler" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo pedra">Pedra</li>
+                    <li class="tipo terra">Terra</li>
+                </ul>
+
+                <p class="descricao">
+                    Um caminhante lento, ele rola para se mover. Ele não presta atenção a nenhum objeto que esteja em seu caminho.
+                </p>
+            </li>
+        </ul>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
